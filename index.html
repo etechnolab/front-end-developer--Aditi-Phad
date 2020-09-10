@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap">
+</head>
+<body>
+
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe--JnhitCqZdRP6shbuuScC1HEX-N3KReymXNIPPuGo97yJw/formResponse" method="post">
+	
+	<h1>Assignment Task</h1>
+
+	 <div class="form-element">
+	 	 <span>Email address</span>
+	 	    <input type="email" name="emailAddress" required placeholder="Email" />
+	 </div>
+
+	 <div class="form-element">
+	 	<span>Full Name</span>
+	 	   <input type="text" name="Full Name" required placeholder="Full Name" />
+	 </div>
+
+	 <div class="form-element">
+	 	<span>Mobile No</span>
+	 	   <input type="text" name="Mobile" required placeholder="Mobile No" />
+	 </div>
+
+	 <div class="form-element">
+	 	<span>Address</span>
+	 	   <input type="text" name="Address" required placeholder="Address" />
+	 </div>
+      
+    <div class="form-element radio-buttons">
+        <span>Gender</span>
+
+        <label for="female">
+        <input 
+          type="radio" 
+          name="gender"
+          required id="female"  
+          value="female"
+          required
+        />
+        <span>Female</span>
+        </label>
+
+        <label for="male">
+        <input 
+           type="radio" 
+           name="gender" 
+           required id="female" 
+           value="male"
+           />
+        <span>Male</span>
+        </label>
+
+        <label for="other">
+        <input type="radio" 
+               name="gender" 
+               id="other" 
+               value="other"/>
+               <span>Other</span>
+        </label>
+     </div>
+
+	 <div class="form-element">
+	 	<span>Message</span>
+	 	  <textarea name="Message" required id="" cols="30" rows=10""></textarea>
+	 </div>
+
+	 <button type="Submit">Submit</button>
+
+
+</form>
+
+
+</body>
+</html>
